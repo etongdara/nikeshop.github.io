@@ -1,0 +1,129 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.big_order_box{
+    width: 60%;
+    margin: 50px auto;
+    height: 1000px;
+    display: flex;
+    justify-content: space-between;
+}
+.order_img{
+    width: 55%;
+    display: flex;
+    justify-content: space-between;
+    position: sticky;
+    top: 70px;
+    height: fit-content;
+}
+.mini_photo{
+    width: 13%;
+    height: 100%;
+    padding: 5px;
+}
+.big_img{
+    width: 85%;
+    height: 100%;
+}
+.big_img img{
+    width: 100%;
+    border-radius: 10px;
+}
+.small_photo{
+    width: 100%;
+    height: 65px;
+    margin-bottom: 5px;
+    border-radius: 5px;
+    overflow: hidden;
+}
+.small_photo img{
+    width: 100%;
+    object-position: 0px -20px;
+}
+.order_info{
+    width: 40%;
+    height: 100%;
+}
+.order_info p:nth-child(1){
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 27px;
+}
+.order_info p:nth-child(2){
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 15px;
+    font-weight: 600;
+    margin-top: 3px;
+}
+.order_info p:nth-child(3){
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-top: 20px;
+    font-size: 20px;
+}
+.box_color{
+    width: 100%;
+    display: flex;
+    gap: 5px;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+.color_shoes{
+    width: 19%;
+    height: 80px;
+    background-color: yellow;
+    border-radius: 10px;
+    overflow: hidden;
+}
+.color_shoes img{
+    width: 100%;
+    object-position: 0px -20px;
+}
+.order_info p:nth-child(5){
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 18px;
+    width: 80%;
+    text-align: center;
+    margin: 30px auto;
+}
+.order_info p:nth-child(5) a{
+    color: black;
+}
+button{
+width: 100%;
+height: 70px;
+border: none;
+border-radius: 60px;
+background-color: black;
+color: white;
+margin: 10px 0px;
+font-size: 20px;
+}
+.fav{
+    background-color: white;
+    border: 1px solid black;
+    color: black;
+}
+.order_info li{
+    margin-left: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+.view_pro{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: black;
+    text-decoration: none;
+    border-bottom: 1px solid black;
+}
+.shipping{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 20px;
+    padding: 15px 5px;
+    border-top: 1px solid rgba(128, 128, 128, 0.381);
+    margin-top: 30px;
+}
+
